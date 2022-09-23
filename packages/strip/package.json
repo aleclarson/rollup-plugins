@@ -20,10 +20,10 @@
     "ci:coverage": "nyc pnpm test && nyc report --reporter=text-lcov > coverage.lcov",
     "ci:lint": "pnpm lint",
     "ci:lint:commits": "commitlint --from=${CIRCLE_BRANCH} --to=${CIRCLE_SHA1}",
-    "ci:test": "pnpm test -- --verbose",
+    "ci:test": "pnpm test --verbose",
     "prerelease": "pnpm build",
     "pretest": "pnpm build",
-    "release": "pnpm plugin:release --workspace-root -- --pkg $npm_package_name",
+    "release": "pnpm --workspace-root plugin:release --pkg $npm_package_name",
     "test": "ava"
   },
   "files": [
