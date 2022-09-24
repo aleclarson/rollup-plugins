@@ -54,8 +54,7 @@
   },
   "devDependencies": {
     "@rollup/plugin-buble": "^0.21.3",
-    "graphql": "^14.1.1",
-    "rollup": "^2.67.3"
+    "graphql": "^14.1.1"
   },
   "types": "types/index.d.ts",
   "ava": {

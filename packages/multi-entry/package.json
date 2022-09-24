@@ -52,9 +52,6 @@
     "@rollup/plugin-virtual": "^2.0.3",
     "matched": "^5.0.0"
   },
-  "devDependencies": {
-    "rollup": "^2.67.3"
-  },
   "types": "./types/index.d.ts",
   "ava": {
     "babel": {
