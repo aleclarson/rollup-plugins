@@ -82,5 +82,10 @@
   "contributors": [
     "Andrew Powell <andrew@shellscape.org>",
     "Mattias Ekstrand <mattias.ekstrand@gmail.com>"
-  ]
+  ],
+  "exports": {
+    "types": "./types/index.d.ts",
+    "require": "./dist/index.js",
+    "import": "./dist/index.es.js"
+  }
 }

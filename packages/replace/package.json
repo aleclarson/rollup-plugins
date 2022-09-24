@@ -69,5 +69,10 @@
       "!**/recipes/**",
       "!**/types.ts"
     ]
+  },
+  "exports": {
+    "types": "./types/index.d.ts",
+    "require": "./dist/rollup-plugin-replace.cjs.js",
+    "import": "./dist/rollup-plugin-replace.es.js"
   }
 }

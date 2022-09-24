@@ -73,5 +73,10 @@
   "contributors": [
     "Jamen Marz <jamenmarz+gh@gmail.com>",
     "Colin Eberhardt <colin.eberhardt@gmail.com>"
-  ]
+  ],
+  "exports": {
+    "types": "./types/index.d.ts",
+    "require": "./dist/index.js",
+    "import": "./dist/index.es.js"
+  }
 }

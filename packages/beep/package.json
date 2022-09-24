@@ -53,5 +53,9 @@
       "!**/output/**",
       "!**/recipes/**"
     ]
+  },
+  "exports": {
+    "types": "./types/index.d.ts",
+    "default": "./lib/index.js"
   }
 }

@@ -79,5 +79,10 @@
       "!**/recipes/**",
       "!**/types.ts"
     ]
+  },
+  "exports": {
+    "types": "./types/index.d.ts",
+    "require": "./dist/rollup-plugin-buble.cjs.js",
+    "import": "./dist/rollup-plugin-buble.es.js"
   }
 }

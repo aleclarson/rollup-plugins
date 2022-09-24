@@ -71,5 +71,10 @@
       "!**/fixtures/**",
       "!**/snapshots/**"
     ]
+  },
+  "exports": {
+    "types": "./types/index.d.ts",
+    "require": "./dist/index.js",
+    "import": "./dist/index.es.js"
   }
 }

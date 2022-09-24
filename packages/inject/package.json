@@ -69,5 +69,10 @@
       "!**/recipes/**",
       "!**/types.ts"
     ]
+  },
+  "exports": {
+    "types": "./index.d.ts",
+    "require": "./dist/index.js",
+    "import": "./dist/index.es.js"
   }
 }
